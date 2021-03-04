@@ -1,0 +1,27 @@
+<section>
+    <div class="row text-center p-1 m-2">
+        <div class="dropdown">
+            <button
+              class="btn btn-dark dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Learning Topic
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li *ngFor="let type of app.getAvailable() | keyvalue"><a class="dropdown-item" (click)="select(type.key.toString())">{{ type.key.toString() }}</a></li>
+            </ul>
+          </div>
+    </div>
+    <div class="row text-center" *ngIf="this.selected != null">
+        <div class="card m-1" *ngFor="let card of selected">
+            <div class="card-body">
+                <h5 class="card-title">{{ card.title }}</h5>
+                <img *ngIf="card.image != null" src="assets/img/{{card.image}}" style="max-width: 100%;">
+                <button type="button" class="btn btn-warning" (click)="app.play(card.sound)" *ngIf="card.sound != null">Play ▶</button>
+            </div>
+        </div>
+    </div>
+</section>

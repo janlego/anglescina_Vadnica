@@ -1,0 +1,32 @@
+<section>
+    <div class="row text-center p-1 m-2">
+        <div class="dropdown">
+            <button
+              class="btn btn-dark dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Memory Types
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li *ngFor="let type of app.getAvailable() | keyvalue"><a class="dropdown-item" (click)="select(type.key.toString())">{{ type.key.toString() }}</a></li>
+            </ul>
+          </div>
+          Score: {{ this.score }}
+    </div>
+    <div class="row text-center" *ngIf="this.selected != null && !this.finished">
+        <div class="card m-1" style="background-color: darkgrey;" *ngFor="let card of selected; index as i">
+            <div class="card-body" (click)="flip(i)" [style.visibility]="card.disabled ? 'hidden' : 'visible'">
+              <div [style.visibility]="card.show ? 'visible' : 'hidden'">
+                <h5 class="card-title">{{ card.title }}</h5>
+                <img *ngIf="card.image != null" src="assets/img/{{card.image}}" style="max-width: 100%;">
+              </div>
+            </div>
+        </div>
+    </div>
+    <span class="text-center" *ngIf="this.finished">
+      <h3>Congratulations!</h3>
+    </span>
+</section>

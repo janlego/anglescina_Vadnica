@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Colors",
+        "path": "colors.json"
+    },
+    {
+        "name": "Animals",
+        "path": "animals.json"
+    }
+]
