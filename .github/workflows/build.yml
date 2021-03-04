@@ -24,7 +24,7 @@ jobs:
     - name: npm install
       run: npm install
     - name: Production build
-      run: ng build --prod --base-href=/anglescina_Vadnica
+      run: ng build --prod
     - name: Providing 404 page
       run: cp docs/index.html docs/404.html
     - name: Github Pages
