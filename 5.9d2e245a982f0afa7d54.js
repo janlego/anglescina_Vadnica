@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{goUB:function(o){!function(){var o=new Error("Cannot find module './House/sample.json'");throw o.code="MODULE_NOT_FOUND",o}()}}]);
