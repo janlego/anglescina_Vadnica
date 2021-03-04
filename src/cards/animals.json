@@ -1,7 +1,17 @@
 [
     {
-        "title": "Cow",
+        "title": "red",
         "sound": null,
+        "image": "red.png"
+    },
+	    {
+        "title": "Cow",
+        "sound": "moo.mp3",
+        "image": "smile.png"
+    },
+	    {
+        "title": "Cow",
+        "sound": "moo.mp3",
         "image": "smile.png"
     },
     {
