@@ -10,5 +10,9 @@
     {
         "name": "Animals",
         "path": "animals.json"
+    },
+	{
+        "name": "House",
+        "path": "House.json"
     }
 ]
