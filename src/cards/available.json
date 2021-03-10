@@ -14,5 +14,9 @@
 	{
         "name": "House",
         "path": "House.json"
+    },
+	{
+        "name": "Instruments",
+        "path": "Instruments.json"
     }
 ]
