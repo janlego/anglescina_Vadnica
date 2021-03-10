@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{ZDud:function(l){l.exports=JSON.parse('[{"title":"Yellow","sound":null,"image":null},{"title":"Green","sound":null,"image":null},{"title":"Purple","sound":"purple.mp3","image":null},{"title":"Blue","sound":"blue.mp3","image":null}]')}}]);
