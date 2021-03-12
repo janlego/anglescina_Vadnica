@@ -1,16 +1,4 @@
 [
-    {
-        "name": "Colors",
-        "path": "House/colors.json"
-    },
-	{
-        "name": "Colors",
-        "path": "House/colors.json"
-    },
-    {
-        "name": "Animals",
-        "path": "animals.json"
-    },
 	{
         "name": "House",
         "path": "House.json"
