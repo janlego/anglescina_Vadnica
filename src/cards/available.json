@@ -6,5 +6,9 @@
 	{
         "name": "Instruments",
         "path": "Instruments.json"
+    },
+	{
+        "name": "Clothes",
+        "path": "Clothes.json"
     }
 ]

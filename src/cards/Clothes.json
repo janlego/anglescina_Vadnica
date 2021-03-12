@@ -1,0 +1,32 @@
+[
+    {
+        "title": "hat",
+        "sound": "hat.mp3",
+        "image": "hat.png"
+    },
+	    {
+        "title": "sweater",
+        "sound": "sweater.mp3",
+        "image": "sweater.png"
+    },
+	    {
+        "title": "jacket",
+        "sound": "jacket.mp3",
+        "image": "jacket.png"
+    },
+    {
+        "title": "shoes",
+        "sound": "shoes.mp3",
+        "image": "shoes.png"
+    },
+    {
+        "title": "scarf",
+        "sound": "scarf.mp3",
+        "image": "scarf.png"
+    },
+    {
+        "title": "socks",
+        "sound": "socks.mp3",
+        "image": "socks.png"
+    }
+]
