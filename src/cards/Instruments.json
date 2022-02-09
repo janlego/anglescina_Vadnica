@@ -25,9 +25,9 @@
         "image": "guitar.png"
     },
     {
-        "title": "drums",
-        "sound": "drums.mp3",
-        "image": "drums.png"
+        "title": "drum",
+        "sound": "drum.mp3",
+        "image": "drum.png"
     },
 	{
         "title": "accordion",
