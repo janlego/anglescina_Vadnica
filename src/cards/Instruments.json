@@ -28,5 +28,10 @@
         "title": "drums",
         "sound": "drums.mp3",
         "image": "drums.png"
+    },
+	{
+        "title": "accordion",
+        "sound": "accordion.mp3",
+        "image": "accordion.png"
     }
 ]
