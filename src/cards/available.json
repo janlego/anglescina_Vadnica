@@ -18,5 +18,9 @@
 	{
         "name": "Feelings",
         "path": "Feelings.json"
+    },
+	{
+        "name": "Days of the week",
+        "path": "days_of_the_week.json"
     }
 ]
