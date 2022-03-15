@@ -26,5 +26,9 @@
 		{
         "name": "Seasons",
         "path": "Seasons.json"
+    },
+	{
+        "name": "Colours",
+        "path": "Colours.json"
     }
 ]
