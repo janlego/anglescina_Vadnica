@@ -34,5 +34,9 @@
     {
         "name": "School supplies",
         "path": "School supplies.json"
+    },
+	{
+        "name": "Body parts",
+        "path": "Body parts.json"
     }
 ]
