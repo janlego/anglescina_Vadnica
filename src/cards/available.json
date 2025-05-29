@@ -38,5 +38,9 @@
 	{
         "name": "Body parts",
         "path": "Body parts.json"
+    },
+  {
+        "name": "Farm animals",
+        "path": "Farm animals.json"
     }
 ]
