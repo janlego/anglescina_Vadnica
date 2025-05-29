@@ -1,0 +1,37 @@
+[
+    {
+        "title": "chicken",
+        "sound": "chicken.mp3",
+        "image": "chicken.png"
+    },
+	    {
+        "title": "rooster",
+        "sound": "rooster.mp3",
+        "image": "rooster.png"
+    },
+	    {
+        "title": "horse",
+        "sound": "horse.mp3",
+        "image": "horse.png"
+    },
+    {
+        "title": "goat",
+        "sound": "goat.mp3",
+        "image": "goat.png"
+    },
+    {
+        "title": "duck",
+        "sound": "duck.mp3",
+        "image": "duck.png"
+    },
+    {
+        "title": "cow",
+        "sound": "cow.mp3",
+        "image": "cow.png"
+    },
+    {
+        "title": "dog",
+        "sound": "dog.mp3",
+        "image": "dog.png"
+    }
+]
